@@ -51,11 +51,11 @@
         </h2>
 
         <!-- Email Form -->
-        <form class="flex flex-col sm:flex-row justify-center items-center gap-3 max-w-xl mx-auto">
+        <form class="flex flex-col sm:flex-row justify-center items-center gap-2 max-w-xl mx-auto">
             <input
                 type="email"
                 placeholder="Enter your email address"
-                class="w-full sm:flex-1 h-10 sm:h-12 rounded-xl px-5 bg-white outline-none text-[#666]"
+                class="w-full sm:flex-1 h-10 sm:h-12 rounded-xl px-5 bg-white text-[13px] sm:text-[15px] outline-none text-[#666]"
             >
 
             <button
