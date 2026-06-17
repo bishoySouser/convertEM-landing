@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/coming-soon', function () {
-    return view('coming-soon');
+    return view('soon');
 });

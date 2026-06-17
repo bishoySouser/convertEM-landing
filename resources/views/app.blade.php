@@ -12,9 +12,9 @@
         </title>
 
 		{{-- <link rel="fav icon" type="image/png" href="{{asset('site_assets/images/tab-icon.png')}}"> --}}
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 		<meta property="og:url" content="{{ url('') }}" />
         <meta property="og:type" content="website" />
@@ -36,7 +36,7 @@
 
 
             @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-                @vite(['resources/css/app.css','resources/css/app.scss', 'resources/js/app.js'])
+                @vite(['resources/css/app.css', 'resources/js/app.js'])
             @else
                 <style>
                 </style>
