@@ -21,7 +21,7 @@ class MainController extends Controller
             'email' => $request->email,
         ]);
 
-        Mail::to(config('mail.from.address', 'admin@example.com'))->send(new NewLandingRequestMail($landingRequest));
+        Mail::to("info@convert-em.com")->send(new NewLandingRequestMail($landingRequest));
 
         return redirect()->back()->with('success', 'Thank you for subscribing!');
     }
